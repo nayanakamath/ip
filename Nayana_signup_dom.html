@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>SignUp DOM</title>
+</head>
+
+<body>
+    <div style="text-align:center;border: 1px solid black; width: 400px; height: 500px; background-color: beige; margin: 0 auto;">
+        <br>
+        <h4>SignUp form </h4>
+        <form action="" name="frm">
+        
+            <p id="fname" style="color:red"></p>
+            <label>First Name</label>
+            <input type="text" id="firstName" />
+            <br>   <br>
+            <p id="lname" style="color:red"></p>
+            <label>Last Name</label>
+            <input type="text" id="lastName" />
+            <br><br>
+            <label>Gender</label>
+            <select name="gender">
+                <option value="Val1" selected="selected">Male</option>
+                <option value="Val2">Female</option>
+                <option value="Val3">Other</option>
+            </select>
+            <br>   <br>
+            <p id="em" style="color:red"></p>
+            <label>Email</label>
+            <input type="text" id="email" />
+            <br>   <br>
+            <p id="pword" style="color:red"></p>
+            <label>Password</label>
+            <input type="password" id="password" value="" />
+            <br><br>
+            <input type="button" name="submit" value="SignUp" onclick="buttonFunction()" />
+            <br><br><br>
+        </form>
+
+        <script src="Nayana_signup.js"></script>
+    </div>
+
+</body>
+
+</html>
