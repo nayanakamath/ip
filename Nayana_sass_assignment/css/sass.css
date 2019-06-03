@@ -1,0 +1,49 @@
+div, #btn {
+  color: purple;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 20; }
+
+div h4, #btn h4 {
+  text-align: center;
+  color: red;
+  position: middle; }
+
+#btn {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-left: 40px; }
+
+#dv1 {
+  border: 4px solid black;
+  height: 100;
+  width: 100;
+  margin-left: 60;
+  background: #dada5a;
+  position: relative; }
+
+#dv2 {
+  border: 4px solid black;
+  height: 100;
+  width: 100;
+  margin-left: 40;
+  background: #c0bdbd;
+  position: relative; }
+
+#dv3 {
+  border: 4px solid black;
+  height: 100;
+  width: 100;
+  margin-left: 40;
+  background: #a1d0d8;
+  position: relative; }
+
+#dv4 {
+  border: 4px solid black;
+  height: 100;
+  width: 100;
+  margin-left: 40;
+  background: #c78394;
+  position: relative; }

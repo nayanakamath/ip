@@ -1,0 +1,55 @@
+$txtcolor: purple;
+$bord:  4px solid black;
+//$visible: hidden;
+
+@mixin mix($size, $bgcolor, $position) {
+    height: $size;
+    width: $size;
+    margin-left: $position;
+    background: $bgcolor;
+    position: relative;
+// visibility: $visible;
+}
+
+div{
+    color: $txtcolor;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20;
+}
+
+div h4{
+text-align: center;
+color:red;
+position: middle;
+}
+
+#btn{
+  @extend div;
+  background-color:black;
+  color: white;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+#dv1{
+    border:$bord;
+    @include mix(100, rgb(218, 218, 90), 60);
+}
+
+#dv2{
+    border:$bord;
+    @include mix(100, rgb(192, 189, 189), 40);
+}
+
+#dv3{
+    border:$bord;
+    @include mix(100, rgb(161, 208, 216),40);
+}
+
+#dv4{
+    border:$bord;
+    @include mix(100, rgb(199, 131, 148),40);
+}
+
