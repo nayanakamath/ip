@@ -60,7 +60,7 @@ class Signup extends Component {
   };
 
   render() {
-    console.log(this.state);
+    //console.log(this.state);
     return (
       <div style={{ textAlign: "center", margin: "50px" }}>
         <div>
@@ -91,7 +91,7 @@ class Signup extends Component {
               {this.state.person.map(i => (
                 <li
                   key={i.uname + Math.random()}
-                >{`Name: ${i.uname} Email: ${i.email} `}</li>
+                >{`Name: ${i.uname}, Email: ${i.email} `}</li>
               ))}
             </ol>
           </label>
