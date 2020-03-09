@@ -1,5 +1,10 @@
 import React, { Component } from "react";
-const sampleData = [
+
+class Signup extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      person: [
   {
     uname: "Mary",
     email: "mary@gmail.com",
@@ -18,13 +23,7 @@ const sampleData = [
     pass: "abc",
     con: "abc"
   }
-];
-
-class Signup extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      person: sampleData
+]
     };
   }
 
